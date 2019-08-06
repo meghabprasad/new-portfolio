@@ -1,0 +1,46 @@
+.section-dark {
+    background-color: #011627;
+}
+
+#project-gif {
+    /* width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    filter: opacity(60%);
+    margin-right: 10px; */
+     /* border: solid #E2C044; */
+}
+
+#project-gif:hover {
+    /* filter: opacity(100%);
+    border: solid #E2C044; */
+}
+
+#projects-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#link {
+    text-decoration: none;
+}
+
+#more-projects {
+    text-align: center;
+}
+
+#page-title {
+    font-size: 40px;
+}
+
+#job-title {
+    font-size: 40px;
+}
+
+#job-location {
+    font-size: 30px;
+}
+
+#job-info {
+    font-size: 20px;
+}

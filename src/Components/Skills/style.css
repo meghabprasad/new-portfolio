@@ -1,0 +1,47 @@
+.section-dark {
+    background-color: #011627;
+}
+
+#skills-content {
+    height: 992px;
+}
+
+#item {
+    width: 100px;
+    height: 150px;
+}
+
+#logo {
+    border-radius: 20px;
+}
+
+#card {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 20px;
+    filter: grayscale(60%);
+}
+
+img:hover {
+    filter: none !important;
+}
+
+
+.section-content {
+    text-align: center;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#languages {
+    font-size: 30px;
+}
+#languages:hover {
+    color: #E2C044;
+}

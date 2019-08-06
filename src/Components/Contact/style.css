@@ -1,0 +1,11 @@
+#sayhello {
+    font-weight: bold !important;
+    text-decoration: none;
+}
+#contact {
+    filter: grayscale(50%);
+}
+#contact:hover {
+    filter: none;
+    border-radius: 30px;
+}

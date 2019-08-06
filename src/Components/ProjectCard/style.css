@@ -1,0 +1,43 @@
+#project-gif {
+    width: 360px;
+    height: 200px;
+    border-radius: 20px;
+    filter: opacity(70%);
+    margin-right: 10px;
+     /* border: solid #E2C044; */
+}
+
+#project-gif:hover {
+    filter: opacity(100%);
+    /* border: solid #E2C044; */
+}
+
+#projects-container {
+    display: flex;
+    /* width: 1000px; */
+}
+
+#project-card {
+    width: 360px;
+    padding: 10px;
+    text-align: center;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#logo:hover {
+    border-radius: 20px;
+    border: solid #E2C044;
+}
+
+#info {
+    font-size: 20px;
+}
+
+#tech-text {
+    font-weight: bold;
+}
