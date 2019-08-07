@@ -32,7 +32,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={1000}
               >
-                About me
+                About
               </Link>
             </li>
             <li className="nav-item">

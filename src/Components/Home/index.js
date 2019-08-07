@@ -21,8 +21,9 @@ export default function Section({ title, dark, id }) {
   return (
     <div className={"section" + (dark ? " section-dark" : "")} id="home-section">
       <div className="section-content home-content" id={id}>
+        <div>
         <p id="hi-text">Hi, my name is</p>
-        <h1 id="name-text">MEGHA BINDIGANAVALE</h1>
+        <h1 id="name-text">Megha Bindiganavale</h1>
         <p id="bio-text">I'm a Software Engineer based in San Francisco, Bay Area. </p>
         <p id="bio-text"> I am passionate about healthcare, learning, teaching, and building exceptional products.</p>
         <br></br><br></br>
@@ -44,6 +45,7 @@ export default function Section({ title, dark, id }) {
         RESUME 
         </Button>
         </a>
+      </div>
       </div>
     </div>
   );

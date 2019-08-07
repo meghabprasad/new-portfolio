@@ -19,6 +19,7 @@ export default function Section({ title, subtitle, dark, id }) {
   return (
     <div className={"section" + (dark ? " section-dark" : "")}id="skills-content">
       <div className="section-content" id={id}>
+        <div>
         <h1 id="title">&#123; Languages &#125;</h1>
         <p id = "languages">HTML | CSS | JAVASCRIPT | C | PYTHON | MATLAB | LUA</p>
         <h1 id ="title">&#123; Technologies &#125;</h1>
@@ -26,17 +27,17 @@ export default function Section({ title, subtitle, dark, id }) {
         <Grid container justify="center" spacing="2">
             <Grid item> 
                 
-                <img src={ReactLogo} style={{width: "200px", height: "200px", backgroundColor:"white"}}></img>
+                <img src={ReactLogo} style={{width: "100px", height: "100px", backgroundColor:"white"}}></img>
                 
             </Grid>
             <Grid item>
-                <img src={Firebase} style={{width: "180px", height: "200px", backgroundColor:"white"}}></img>
+                <img src={Firebase} style={{width: "80px", height: "100px", backgroundColor:"white"}}></img>
             </Grid>
             <Grid item>
-                <img src={Ajax} style={{width: "250px", height: "200px", backgroundColor:"white"}}></img>
+                <img src={Ajax} style={{width: "150px", height: "100px", backgroundColor:"white"}}></img>
             </Grid>
             <Grid item>
-                <img src={Jquery} style={{width: "200px", height: "200px", backgroundColor: "white"}}></img>
+                <img src={Jquery} style={{width: "100px", height: "100px", backgroundColor: "white"}}></img>
             </Grid>
 
         </Grid>
@@ -44,37 +45,38 @@ export default function Section({ title, subtitle, dark, id }) {
       <Grid item xs={12}>
         <Grid container justify="center" spacing="2">
             <Grid item> 
-                <img src={Bootstrap} style={{width: "280px", height: "200px", backgroundColor: "white"}}></img>
+                <img src={Bootstrap} style={{width: "180px", height: "100px", backgroundColor: "white"}}></img>
             </Grid>
             <Grid item>
-                <img src={Materialize} style={{width: "400px", height: "200px", backgroundColor: "white"}}></img>
+                <img src={Materialize} style={{width: "200px", height: "100px", backgroundColor: "white"}}></img>
             </Grid>
             <Grid item>
-                <img src={MaterialUI} style={{width: "200px", height: "200px", backgroundColor: "white"}}></img>
+                <img src={MaterialUI} style={{width: "100px", height: "100px", backgroundColor: "white"}}></img>
             </Grid>
             <Grid item>
-                <img src={Node} style={{width: "200px", height: "200px", backgroundColor: "white"}}></img>
+                <img src={Node} style={{width: "100px", height: "100px", backgroundColor: "white"}}></img>
             </Grid>
             <Grid item>
-                <img src={Handlebars} style={{width: "200px", height: "200px", backgroundColor: "white"}}></img>
+                <img src={Handlebars} style={{width: "100px", height: "100px", backgroundColor: "white"}}></img>
             </Grid>
         </Grid>
       </Grid>
       <Grid item xs={12}>
         <Grid container justify="center" spacing="2">
             <Grid item> 
-                <img src={Mongo} style={{width: "350px", height: "200px", backgroundColor: "white"}}></img>
+                <img src={Mongo} style={{width: "250px", height: "100px", backgroundColor: "white"}}></img>
             </Grid>
             <Grid item>
-                <img src={Mysql} style={{width: "250px", height: "200px", backgroundColor: "white"}}></img>
+                <img src={Mysql} style={{width: "150px", height: "100px", backgroundColor: "white"}}></img>
             </Grid>
             <Grid item>
-                <img src={Express} style={{width: "250px", height: "200px", backgroundColor: "white"}}></img>
+                <img src={Express} style={{width: "150px", height: "100px", backgroundColor: "white"}}></img>
             </Grid>
         </Grid>
       </Grid>
-        <h2></h2>
+        </div>
       </div>
+      
       </div>
   );
 }

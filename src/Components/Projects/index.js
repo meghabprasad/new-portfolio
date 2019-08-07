@@ -11,7 +11,7 @@ const projects = {
     title: "Finfo",
     img: {FinfoImg},
     info: "FinFo is a one stop shop for all publically available financial information including stocks, cheap flights, and currency exchange.",
-    tech: "HTML | CSS | Javascript | Bootstrap | APIs | Firebase",
+    tech: "HTML, CSS, Javascript, Bootstrap, APIs, Firebase",
     site: "https://meghabprasad.github.io/finfo/",
     github: "https://github.com/meghabprasad/finfo"
   },
@@ -70,17 +70,22 @@ export default function Section({ title, subtitle, dark, id }) {
     <div className={"section" + (dark ? " section-dark" : "")}>
     
       <div className="section-content" id={id}>
+        <div>
         <h1 id="page-title">&#123; Team Projects &#125;</h1>
         <div id="projects-container">
+        
         <ProjectCard title={projects.finfo.title} info={projects.finfo.info} tech={projects.finfo.tech} site={projects.finfo.site} github={projects.finfo.github}/>
         <ProjectCard title={projects.gymate.title} info={projects.gymate.info} tech={projects.gymate.tech} site={projects.gymate.site} github={projects.gymate.github}/>
         <ProjectCard title={projects.peak.title} info={projects.peak.info} tech={projects.peak.tech} site={projects.peak.site} github={projects.peak.github}/>
+        
         </div>
         <h1 id="page-title">&#123; Solo Projects &#125;</h1>
         <div id="projects-container">
+        
         <ProjectCard title={projects.books.title} info={projects.books.info} tech={projects.books.tech} site={projects.books.site} github={projects.books.github}/>
         <ProjectCard title={projects.scraper.title} info={projects.scraper.info} tech={projects.scraper.tech} site={projects.scraper.site} github={projects.scraper.github}/>
         <ProjectCard title={projects.emogifs.title} info={projects.emogifs.info} tech={projects.emogifs.tech} site={projects.emogifs.site} github={projects.emogifs.github} />
+        
         </div>
         <a href = "https://github.com/meghabprasad" target = "_blank" id ="link">
         <br></br>
@@ -90,6 +95,7 @@ export default function Section({ title, subtitle, dark, id }) {
         </Button>
         </div>
         </a>
+        </div>
       </div>
     
     </div>

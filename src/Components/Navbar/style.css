@@ -4,7 +4,7 @@
 
 .nav-item {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .nav-item:hover {
@@ -14,12 +14,33 @@
 .nav-content {
     color: white;
     max-width: none !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
 }
 
+
+
 .logo-name {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .logo-name:hover {
     color: #E2C044;
+}
+
+@media screen and (max-width: 720px){
+    .nav-item {
+        font-size: 10px;
+    }
+    .logo-name {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+    .nav .nav-content{
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+        margin-left: 0px !important;
+    }
+
 }

@@ -8,6 +8,7 @@ export default function Section({ title, subtitle, dark, id }) {
   return (
     <div className={"section" + (dark ? " section-dark" : "")} id="about-section">
       <div className="section-content" id={id}>
+      <div>
       <h1 id="page-title">&#123; Who am I? &#125;</h1>
       <p id="about-text">I am a Software Engineer with a passion for integrating technologies to solve problems and improve upon existing methods.</p>
 
@@ -16,14 +17,12 @@ export default function Section({ title, subtitle, dark, id }) {
       <p id="about-text"> I am passionate about approaching programming challenges from different angles, and collaborating with others to create meaningful products.</p>
 
       <br></br><br></br>
-      <Grid container spacing ={3}>
-      <Grid item xs={6} id = "first-col">
 
+      <div class="pic-edu">
+      <div>
       <img alt="my happy face"src={photo} id="my-face"/>
-
-      </Grid>
-      
-      <Grid item xs={6} id="second-col">
+      </div>
+      <div>
       <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
       <br></br>
       <h1>Education</h1>
@@ -35,9 +34,10 @@ export default function Section({ title, subtitle, dark, id }) {
       <p id ="edu-text">B.S. in Neurobiology, Physiology, and Behavior, earned June 2018</p>
       <p id="location"><i>Davis, CA</i></p>
       </Animated>
-      </Grid>
-      
-      </Grid>
+      </div>
+      </div>
+
+      </div>
       
       </div>
     </div>
