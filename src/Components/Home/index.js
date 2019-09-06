@@ -5,7 +5,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import Button from '@material-ui/core/Button';
 import Home from "../Home"
 import { borderColor } from "@material-ui/system";
-import Pdf from "../../megha-resume.pdf"
+import Pdf from "../../resume-09-06.pdf"
 const useStyles = makeStyles(theme => ({
     margin: {
       margin: theme.spacing(1),
