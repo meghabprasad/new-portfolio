@@ -9,19 +9,25 @@ export default function Section({ title, subtitle, dark, id }) {
       <div className="section-content" id={id}>
       <h1 id="page-title">&#123; Experiences &#125;</h1>
         <div id="row">
+            <img src={Asana} style={{width: "300px;", height: "200px"}}></img>
+            <h4 id="job-company">Asana Inc.</h4>
+        <p id="job-title">Software Engineer<i>Since Oct 2020</i></p>
+        <p id="job-location">San Francisco, CA</p>
+        <p id="job-info">AI & ML, Mobile Engineering, API development</p>
+        </div>
+        <div id="row">
             <img src={Stanford} style={{width: "300px;", height: "200px"}}></img>
             <h4 id="job-company">Stanford University</h4>
         <p id="job-title">Software Research Assistant, <i>Since June 2018</i></p>
         <p id="job-location">Palo Alto, CA</p>
-        <p id="job-info">Configure and validate the RETeval diagnostic device to retrieve pupil diameter measurements in addition to the currently recorded retinal responses.</p>
-        <p id="job-info">Use Lua for programming various flash protocols in the device. Utilize RFF extractor for data extraction and MATLAB/R for data cleansing and analysis. Use MATLAB for image segmentation of the pupil. Use Excel and PowerPoint for data presentation.</p>
-        <p id="job-info">Currently building an iOS mobile application using Swift and Zeiss One Plus VR Headset to measure eye misalignment while integrating the iPhone accelerometer to identify device motion.</p>        
-        <p id="job-info">Presented research developments at national conferences and obtained manuscript co-authorship.</p>
+        <p id="job-info">MATLAB, Lua, VR, iOS development </p>
         <a href = {ArvoPDF} target="_blank">
         <img id="myImg" src={ArvoImg} alt="Abstract Poster" style={{width: "300px", height: "200px"}}></img>
         </a>
         <p>- click to view -</p>
         </div>
+
+        
       </div>
     </div>
   );
