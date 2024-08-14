@@ -3,7 +3,7 @@ import "./style.css";
 import Stanford from "../../images/stanford-logo.png";
 import ArvoPDF from "../../images/ARVO_Posterfinal.pdf";
 import ArvoImg from "../../images/ARVO-img.jpg";
-import Asana from "../../images/asana-logo.png"; 
+import Asana from "../../images/asana-logo-white.png"; 
 
 export default function Section({ title, subtitle, dark, id }) {
   return (
@@ -11,14 +11,16 @@ export default function Section({ title, subtitle, dark, id }) {
       <div className="section-content" id={id}>
         <h1 className="page-title">&#123; Experiences &#125;</h1>
         <div className="row">
-          <img src={Asana} alt="Asana Logo" style={{ width: "300px", height: "200px" }} />
+        <div style={{ color: "white" }}>
+          <img src={Asana} alt="Asana Logo" style={{ width: "200px", height: "200px" }} />
+        </div>
           <h4 className="job-company">Asana Inc.</h4>
           <p className="job-title">Software Engineer <i>Since Oct 2020</i></p>
           <p className="job-location">San Francisco, CA</p>
           <p className="job-info">AI & ML, Mobile Engineering, API Development</p>
         </div>
         <div className="row">
-          <img src={Stanford} alt="Stanford Logo" style={{ width: "300px", height: "200px" }} />
+          <img src={Stanford} alt="Stanford Logo" style={{ width: "200px", height: "250px" }} />
           <h4 className="job-company">Stanford University</h4>
           <p className="job-title">Software Research Assistant, <i>Since June 2018</i></p>
           <p className="job-location">Palo Alto, CA</p>
