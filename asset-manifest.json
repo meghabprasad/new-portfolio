@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new-portfolio/static/css/main.67315f96.css",
-    "main.js": "/new-portfolio/static/js/main.1c49e3dd.js",
+    "main.js": "/new-portfolio/static/js/main.23038654.js",
     "static/media/finfo.gif": "/new-portfolio/static/media/finfo.54453edcbdfce3836df7.gif",
     "static/media/scrape.gif": "/new-portfolio/static/media/scrape.73c65d4902aef525004b.gif",
     "static/media/peak.gif": "/new-portfolio/static/media/peak.6cb1bd02cbcaea138e1d.gif",
@@ -11,12 +11,11 @@
     "static/media/ARVO-img.jpg": "/new-portfolio/static/media/ARVO-img.fafffe3c21b99b2266d0.jpg",
     "static/media/happy-face.jpg": "/new-portfolio/static/media/happy-face.53d610c07d3d09535a24.jpg",
     "static/media/ARVO_Posterfinal.pdf": "/new-portfolio/static/media/ARVO_Posterfinal.581e6145c41ff11a58ca.pdf",
-    "static/media/megha_resume_8_14_2024.pdf": "/new-portfolio/static/media/megha_resume_8_14_2024.19ff668254674a9657eb.pdf",
+    "static/media/megha-resume-8-14-24.pdf": "/new-portfolio/static/media/megha-resume-8-14-24.042536ba3f88a876f52b.pdf",
     "static/media/stanford-logo.png": "/new-portfolio/static/media/stanford-logo.b7c7dcaf578dbad8dd92.png",
     "static/media/react-logo.png": "/new-portfolio/static/media/react-logo.dcc679e5a23288678934.png",
     "static/media/mongo-logo.png": "/new-portfolio/static/media/mongo-logo.057de5cdb374be094c42.png",
     "static/media/node-logo.png": "/new-portfolio/static/media/node-logo.bc4b43cd5f20ba305059.png",
-    "static/media/asana-logo.png": "/new-portfolio/static/media/asana-logo.ff1d27232b47383de594.png",
     "static/media/ajax-logo.png.png": "/new-portfolio/static/media/ajax-logo.png.2bfb1c564a36a34dbabd.png",
     "static/media/bootstrap-logo.png": "/new-portfolio/static/media/bootstrap-logo.ff074d569644a9c00c7f.png",
     "static/media/materialize-logo.png": "/new-portfolio/static/media/materialize-logo.4b3460769bba40143dd3.png",
@@ -26,10 +25,10 @@
     "index.html": "/new-portfolio/index.html",
     "static/media/material-ui-logo.svg": "/new-portfolio/static/media/material-ui-logo.c0958f97929482097efdccc254e938aa.svg",
     "main.67315f96.css.map": "/new-portfolio/static/css/main.67315f96.css.map",
-    "main.1c49e3dd.js.map": "/new-portfolio/static/js/main.1c49e3dd.js.map"
+    "main.23038654.js.map": "/new-portfolio/static/js/main.23038654.js.map"
   },
   "entrypoints": [
     "static/css/main.67315f96.css",
-    "static/js/main.1c49e3dd.js"
+    "static/js/main.23038654.js"
   ]
 }
