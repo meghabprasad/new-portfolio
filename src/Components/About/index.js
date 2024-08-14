@@ -12,9 +12,9 @@ export default function Section({ title, subtitle, dark, id }) {
       <h1 id="page-title">&#123; Who am I? &#125;</h1>
       <p id="about-text">I am a Software Engineer with a passion for integrating technologies to solve problems and improve upon existing methods.</p>
 
-      <p id="about-text"> I enjoy leveraging background in Neurobiology and Human Behavior to provide unique perspectives on how end-users interact with websites and software platforms.</p>
+      <p id="about-text"> I enjoy leveraging my background in health to provide unique perspectives on how end-users interact with websites and software platforms.</p>
 
-      <p id="about-text"> I am passionate about approaching programming challenges from different angles, and collaborating with others to create meaningful products.</p>
+      <p id="about-text"> I am thrilled by the possibilities of Generative AI & ML technologies and eager to explore their potential to revolutionize software development.</p>
 
       <br></br><br></br>
 

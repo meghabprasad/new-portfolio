@@ -71,7 +71,7 @@ export default function Section({ title, subtitle, dark, id }) {
     
       <div className="section-content" id={id}>
         <div>
-        <h1 id="page-title">&#123; Team Projects &#125;</h1>
+        <h1 id="page-title">&#123; Personal Projects &#125;</h1>
         <div id="projects-container">
         
         <ProjectCard title={projects.finfo.title} info={projects.finfo.info} tech={projects.finfo.tech} site={projects.finfo.site} github={projects.finfo.github}/>

@@ -15,7 +15,7 @@ export default function Section({ title, subtitle, dark, id }) {
           <h4 className="job-company">Asana Inc.</h4>
           <p className="job-title">Software Engineer <i>Since Oct 2020</i></p>
           <p className="job-location">San Francisco, CA</p>
-          <p className="job-info">AI & ML, Mobile Engineering, API development</p>
+          <p className="job-info">AI & ML, Mobile Engineering, API Development</p>
         </div>
         <div className="row">
           <img src={Stanford} alt="Stanford Logo" style={{ width: "300px", height: "200px" }} />
