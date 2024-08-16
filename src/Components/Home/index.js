@@ -25,7 +25,7 @@ export default function Section({ title, dark, id }) {
         <p id="hi-text">Hi, my name is</p>
         <h1 id="name-text">Megha Bindiganavale</h1>
         <p id="bio-text">I'm a Software Engineer based in San Francisco, Bay Area. </p>
-        <p id="bio-text"> I am passionate about healthcare, learning, teaching, and building exceptional products.</p>
+        <p id="bio-text"> I am thrilled by the possibilities of Generative AI & ML technologies and eager to explore their potential to revolutionize software development.</p>
         <br></br><br></br>
         <Link 
             activeClass="active"
